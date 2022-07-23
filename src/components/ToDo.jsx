@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import TodoList from './TodoList';
-import TodoForm from './TodoForm';
+import TodoList from './TodoList/TodoList';
+import TodoForm from './TodoForm/TodoForm';
 
 const todoItems = [
     {id: 1, task: 'Buy bread', status: false},
